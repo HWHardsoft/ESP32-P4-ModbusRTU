@@ -17,6 +17,11 @@ For the other 3 UARTs, only the appropriate line of code in the source code need
   RS485.begin(9600, SERIAL_8N1);
 ```
 
+## DIP Switch setting
+S1: OFF-ON-ON-OFF
+S2: OFF-OFF-ON-ON
+S3: ON-OFF-ON-ON
+
 
 ## Hardware
 - [Waveshare ESP32-P4 Development Kit](https://www.waveshare.com/esp32-p4-module-dev-kit.htm)
