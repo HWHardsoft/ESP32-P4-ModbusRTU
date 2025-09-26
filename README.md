@@ -5,7 +5,6 @@ Modbus RTU with Waveshare ESP32-P4 high performance development board and RS485 
 
 ![Modbus Relay Demo](https://github.com/HWHardsoft/ESP32-P4-ModbusRTU/blob/main/Modbus.jpg)
 
-![Alternative Text](https://img.youtube.com/vi/tYy6e4ewItw/0.jpg)
 
 
 
