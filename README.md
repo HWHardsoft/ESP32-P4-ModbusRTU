@@ -5,7 +5,7 @@ Modbus RTU with Waveshare ESP32-P4 high performance development board and RS485 
 
 ![Modbus Relay Demo](https://github.com/HWHardsoft/ESP32-P4-ModbusRTU/blob/main/Modbus.jpg)
 
-![Alternative Text](https://www.youtube.com/shorts/tYy6e4ewItw)/0.jpg)
+![Alternative Text](https://www.youtube.com/shorts/tYy6e4ewItw/0.jpg)
 
 ## Jumper setting 
 On the HAT, the Raspberry Pi's UARTs U0, U3, U4, and U5 can be selected via jumpers. Although UART0 is routed to the correct pins on the ESP32-P4, it is also used for the USB debug interface and therefore cannot be used:
