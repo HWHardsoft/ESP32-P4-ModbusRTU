@@ -19,7 +19,9 @@ For the other 3 UARTs, only the appropriate line of code in the source code need
 
 ## DIP Switch setting
 S1: OFF-ON-ON-OFF
+
 S2: OFF-OFF-ON-ON
+
 S3: ON-OFF-ON-ON
 
 
