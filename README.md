@@ -3,7 +3,7 @@
 Modbus RTU with Waveshare ESP32-P4 high performance development board and RS485 HAT for Raspberry Pi. This RS485 HAT fits perfect on the ESP32-P4 board. Up to 3 HATs can be used at the same time. In this program we control a Waveshare Modbus RTU relay board by setting the corresponding coil registers.
 
 
-![Modbus Relay Demo](https://cdn.hackaday.io/images/2570431742991238794.jpg)
+![Modbus Relay Demo]((https://github.com/HWHardsoft/ESP32-P4-ModbusRTU/blob/main/Modbus.jpg))
 
 ## Hardware
 - [Waveshare ESP32-P4 Development Kit](https://www.waveshare.com/esp32-p4-module-dev-kit.htm)
