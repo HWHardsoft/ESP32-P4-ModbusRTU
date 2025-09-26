@@ -25,6 +25,7 @@ S2: OFF-OFF-ON-ON
 S3: ON-OFF-ON-ON
 
 
+
 ## Hardware
 - [Waveshare ESP32-P4 Development Kit](https://www.waveshare.com/esp32-p4-module-dev-kit.htm)
 - [Zihatec RS485 HAT for Raspberry Pi](https://www.hwhardsoft.de/english/projects/rs485-shield)
