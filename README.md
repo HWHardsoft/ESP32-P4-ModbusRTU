@@ -5,13 +5,25 @@ Modbus RTU with Waveshare ESP32-P4 high performance development board and RS485 
 
 ![Modbus Relay Demo](https://github.com/HWHardsoft/ESP32-P4-ModbusRTU/blob/main/Modbus.jpg)
 
+## Jumper setting 
+On the HAT, the Raspberry Pi's UARTs U0, U3, U4, and U5 can be selected via jumpers. Although UART0 is routed to the correct pins on the ESP32-P4, it is also used for the USB debug interface and therefore cannot be used:
+For the other 3 UARTs, only the appropriate line of code in the source code needs to be activated:   
+```
+  // Initialize the RS485 interface. If you are initializing the RS485 interface
+  // manually, then the parameter can be empty.
+  //Serial2.setPins(33, 23); // pins of U3
+  //Serial2.setPins(2, 36); // pins of U4
+  Serial2.setPins(48, 54); // pins of U5
+  RS485.begin(9600, SERIAL_8N1);
+```
+
+
 ## Hardware
 - [Waveshare ESP32-P4 Development Kit](https://www.waveshare.com/esp32-p4-module-dev-kit.htm)
 - [Zihatec RS485 HAT for Raspberry Pi](https://www.hwhardsoft.de/english/projects/rs485-shield)
 
 
 ## Essential Libraries
-
 These examples use the libraries:
 - [CSE_ArduinoRS485](https://github.com/CIRCUITSTATE/CSE_ArduinoRS485)
 - [CSE-ModbusRTU](https://github.com/CIRCUITSTATE/CSE_ModbusRTU)
